@@ -68,7 +68,13 @@ Viele Hinweise dazu finden sie im [Quarto-Guide](https://quarto.org/docs/guide/)
 ## Wieso OpenRefine verwenden?
 
 ## Archäologischer Datensatz
-Informationen zur Grabung 
+
+Tell Chuera ist ein Siedlungshügel in Nordsyrien (Jezireh-Region), der bereits zum Ende des Chalcolithikums besiedelt wurde (3100 v. Chr., 14C-datiert). Der Siedlungshügel umfasst rund 65 ha und ist durch eine innere und äußere Stadtmauer gekennzeichnet. In der Mitte des 3. Jahrtausends vor Christus war Tell Chuera ein Wirtschaftszentrum, das gemeinsam mit den umliegenden Orten und anderen Zentren der Region ein übergreifendes Wirtschaftssystem bildete. Anders als die anderen wissesnschaftlich erforschten wirtschaftlichen Zentren in der Jezireh wurde in Tell Chuera nie die Keilschrift adaptiert. Informationen über die wirtschaftlichen Strukturen und Prozesse in Tell Chuera ergeben sich daher - wie bei vielen unserer Kolleg:innen mit weiteren schriftlosen Forschungsschwerpunkten - lediglich aus dem archäologischen Befund.
+
+Der Fundort Tell Chuera wurde im 20. und im frühen 21. Jahrtausend extensiv unter Anwendung verschiedenener archäologischer Methoden untersucht, darunter Luftbildaufnahmen (Flugzeug, Drache), geomagnetische Prospektionen, archäozoologische Analysen, Sedimentanalysen bis hin zur klassischen Ausgrabung.
+
+Der hier vorliegende Datensatz stammt aus der Feder von Henrike Backhaus, die in ihrem Disserationsprojekt den "Grabungsbereich H" bearbeiten sollte.
+
 ### Rohdaten
 Informationen zur Tabelle mit Rohdaten
 ### Zieldaten
