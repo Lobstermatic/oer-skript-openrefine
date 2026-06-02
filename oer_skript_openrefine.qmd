@@ -25,12 +25,6 @@ execute:
   freeze: auto
 ---
 
-Herzlichen Glückwunsch 🎉 – Sie haben erfolgreich ein OER-Skript aus dem Template generiert!
-
-Übernehmen Sie folgende Gliederung oder ersetzen Sie diese mit Ihren eigenen Inhalten. Viele Hinweise zu dem Gliederungsvorschlag sind in den Kommentaren in dieser .qmd-Datei hinterlegt.
-
-Warum Sie FAIRedelte OER bereitstellen sollten, die Quarto-Publikationsumgebung dafür besonders gut geeignet ist und alle wesentlichen Informationen zur Nutzung und Anpassung der Templates und der Publikation der Lehr- und Lernmaterialien erfahren Sie in in der [Dokumentation zu den OER-Templates von NFDI4Objects]({{< meta template-doku-url >}}).
-
 
 ## Einleitung
 
@@ -64,8 +58,6 @@ Für das Verständnis dieses Skripts werden vorausgesetzt:
 -   wiederverwenden und zitieren
 -->
 
-## Inhaltliche Abschnitte
-
 <!-- 
 
 Hier ist der Raum für die Inhalte des Skripts. Nutzen sie die vielfältigen Möglichkeiten, Inhalte mit Quarto-Markdown zu gestalten. Ersetzen Sie die Überschriften "Inhaltliche Abschnitte" und "Abschnitt-Überschrift".
@@ -73,7 +65,29 @@ Hier ist der Raum für die Inhalte des Skripts. Nutzen sie die vielfältigen Mö
 Viele Hinweise dazu finden sie im [Quarto-Guide](https://quarto.org/docs/guide/)
 
 -->
+## Wieso OpenRefine verwenden?
 
+## Archäologischer Datensatz
+Informationen zur Grabung 
+### Rohdaten
+Informationen zur Tabelle mit Rohdaten
+### Zieldaten
+Informationen zur Tabelle wie sie für eine weitere Analyse aussehen sollte.
+
+## Schritte der Datenbereinigung in OpenRefine
+### Facettierung
+
+### Transformation
+Spalte "Datum"
+### Clustering
+Spalte "Beschreibung" zu Materialität, Fundkategorie und Anzahl der Funde
+### Ziel
+Jeder Fund erhält eine ID aus Fundort (TCH) - Jahr - Fundstelle - Lfd. Nr. (ggf. Sammelfunde aufteilen und um 00X erweitern)
+
+## Exportieren der Arbeitsschritte und der Zieldaten
+### Bezug zum Forschungsdatenmanagement
+
+## Ausblick und weiterführende Informationen
 
 ## Weiterführende Quellen und Informationen {.appendix .unnumbered}
 
