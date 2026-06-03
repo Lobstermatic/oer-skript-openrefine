@@ -28,7 +28,7 @@ execute:
 
 ## Einleitung
 
-<!-- Holen Sie die Lernenden in diesem Absatz ab. Stellen Sie in wenigen Sätzen, mit Beispielen und Fragen das Thema des Bausteins vor. -->
+Szenario: Ich erhalte im Forschungsprojekt eine Tabelle mit hunderten oder gar tausenden Einträgen. Leider ist die Dokumentation, wie die Datensätze entstanden sind, nicht mehr auffindbar. Dennoch ist meine Aufgabe, aus den Daten statistische Analysen zu erstellen. Ein erster Blick in die Tabelle zeigt, dass dort einiges drin steht, allerdings anscheinend keine standardisierten Eingaben gemacht wurden. Diese Tabelle muss zunächst einmal bereinigt werden, bevor sie für Analysen herangezogen werden kann.
 
 ### Lernziele {.kolophon .unnumbered .unlisted}
 
@@ -69,18 +69,33 @@ Viele Hinweise dazu finden sie im [Quarto-Guide](https://quarto.org/docs/guide/)
 
 ## Archäologischer Datensatz
 
-Tell Chuera ist ein Siedlungshügel in Nordsyrien (Jezireh-Region), der bereits zum Ende des Chalcolithikums besiedelt wurde (3100 v. Chr., 14C-datiert). Der Siedlungshügel umfasst rund 65 ha und ist durch eine innere und äußere Stadtmauer gekennzeichnet. In der Mitte des 3. Jahrtausends vor Christus war Tell Chuera ein Wirtschaftszentrum, das gemeinsam mit den umliegenden Orten und anderen Zentren der Region ein übergreifendes Wirtschaftssystem bildete. Anders als die anderen wissesnschaftlich erforschten wirtschaftlichen Zentren in der Jezireh wurde in Tell Chuera nie die Keilschrift adaptiert. Informationen über die wirtschaftlichen Strukturen und Prozesse in Tell Chuera ergeben sich daher - wie bei vielen unserer Kolleg:innen mit weiteren schriftlosen Forschungsschwerpunkten - lediglich aus dem archäologischen Befund.
+### Tell Chuera - Kurzzusammenfassung der Grabungsgeschichte 
+
+Tell Chuera ist ein Siedlungshügel in Nordsyrien (Jezireh-Region), der bereits zum Ende des Chalcolithikums besiedelt wurde (3100 v. Chr., 14C-datiert). Der Siedlungshügel umfasst rund 65 ha und ist durch eine innere und äußere Stadtbefestigung gekennzeichnet. In der Mitte des 3. Jahrtausends vor Christus war Tell Chuera ein Wirtschaftszentrum, das gemeinsam mit den umliegenden Orten und anderen Zentren der Region ein übergreifendes Wirtschaftssystem bildete. Anders als die anderen wissesnschaftlich erforschten wirtschaftlichen Zentren in der Jezireh wurde in Tell Chuera nie die Keilschrift adaptiert. Informationen über die wirtschaftlichen Strukturen und Prozesse in Tell Chuera ergeben sich daher - wie bei vielen unserer Kolleg:innen mit weiteren schriftlosen Forschungsschwerpunkten - lediglich aus dem archäologischen Befund.
 
 Der Fundort Tell Chuera wurde im 20. und im frühen 21. Jahrtausend extensiv unter Anwendung verschiedenener archäologischer Methoden untersucht, darunter Luftbildaufnahmen (Flugzeug, Drache), geomagnetische Prospektionen, archäozoologische Analysen, Sedimentanalysen bis hin zur klassischen Ausgrabung.
 
-Der hier vorliegende Datensatz stammt aus der Feder von Henrike Backhaus, die in ihrem Disserationsprojekt den "Grabungsbereich H" bearbeiten sollte.
+Der hier vorliegende Datensatz stammt aus der Feder von Henrike Backhaus, die in ihrem Disserationsprojekt den "Grabungsbereich H" bearbeiten sollte.[^die Dissertation liegt aktuell wegen beruflicher anderweitiger Verpflichtungen und wirtschaftlicher Notwendigkeiten auf Eis]
 
-### Rohdaten
-Informationen zur Tabelle mit Rohdaten
+Beim Grabungsbereich H handelt es sich um ein Grabungsareal im Südosten der Oberstadt (innere Stadtbefestigung). Ausgegraben wurden in diesem Bereich Gassen, Wege und Hausgrundrisse.
+
+In insgesamt 13 Grabungskampagnen unter drei verschiedenen Direktoren wurden seit den späten 1950er bis in die frühen 2000er Jahre archäologische Daten aus Bereich H erfasst. Dabei legten die Ausgräber je einen unterschiedlichen Fokus auf dokumentierte Fundgattungen - die Technologie und Dokumentationsstandards veränderten sich (von groben Lokalisierungen der Funde bis hin zu Tachymeter-Einmessungen) - und die Nomenklatur der beschriebenen Funde und Befunde war ebenfalls nicht durchgehend standardisiert.
+
+### Rohdaten aus Bereich H ("Häuserviertel")
+
+Im Folgenden arbeiten wir mit einem fingierten (!) Datensatz, der sowohl die unterschiedlichen Dokumentationsweisen der drei Direktionen beinhaltet, als auch einen Teil bereits durch Henrike Backhaus bereinigter Daten.
+
+--> Szenario: Legacy Data / Altgrabungsdaten - Excel Tabelle (ggf. noch csv) mit nicht standardisierten Eintragungen - nicht für Statistik geeignet. Abgebrochenes Projekt, alle Daten in einer Tabelle vorliegend.
+--> DISCLAIMER SICHTBAR EINBAUEN, nicht dass noch jemand ernsthafte Statistiken mit den Daten machen will
+
 ### Zieldaten
-Informationen zur Tabelle wie sie für eine weitere Analyse aussehen sollte.
+Ziel der Datenbereinigung ist eine statistische Analyse der Funde sowie eine räumliche Darstellung in einem geographischen Informationssystem (GIS).
+Hierfür müssen die Daten zunächst gesichtet, bereinigt und standardisiert werden. Wichtig sind **unique ids** für jeden einzelnen Fund.
 
 ## Schritte der Datenbereinigung in OpenRefine
+
+### Duplikate entfernen
+
 ### Facettierung
 
 ### Transformation
