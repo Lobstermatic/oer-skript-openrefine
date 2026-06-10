@@ -1,11 +1,11 @@
 # Beschreibende Metadaten
 abstract: |
-  Abstract zum Skript.
+  Dieses Skript vermittelt die grundlegenden Funktionen der Software OpenRefine zur Bereinigung archäologischer Grabungsdaten. Anhand eines Beispiel-Datensatzes werden typische Arbeitsschritte der Datenaufbereitung sowie die Dokumentation und Speicherung von Rohdaten, Bearbeitungsschritten und bereinigten Daten vorgestellt. Die Lernressource richtet sich an Studierende (BA und MA) sowie Promovierende, die archäologische Daten für weiterführende Analysen vorbereiten möchten.
 abstract-title: "Zusammenfassung"
 description: |
-  Kurzbeschreibung der Inhalte des Skripts.
+  OER-Baustein zur Einführung in die Datenbereinigung mit OpenRefine
 funding: |
-  Optionale Angaben zur Förderung, in deren Rahmen das Skript erstellt wurde
+  gefördert durch die DFG (Projektnummer 501836407)
 # vgl. https://quarto.org/docs/authoring/front-matter.html#funding
 
 # Open Graph Metadaten für HTML-Header: https://quarto.org/docs/websites/website-tools.html#open-graph
@@ -21,8 +21,7 @@ categories:
   - Skript
 # Für die inhaltliche Erschließung keywords/Stichworte/tags sollte ein kontrolliertes Vokabular genutzt werden.
 keywords:
-  - Stichwort 1
-  - Stichwort 2
+  - Datenbereinigung
 
 # Technische Metadaten
 site-url: &site https://nfdi4objects.github.io/oer-template-skript/
