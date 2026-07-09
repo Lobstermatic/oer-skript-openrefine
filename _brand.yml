@@ -13,7 +13,7 @@ logo:
       path: assets/logos/logo.png
       alt: "Logo der Institution"
     projekt-logo:
-      path: assets/logos/logo_gross.png
+      path: assets/logos/n4o_logo_verlauf_claim_kurz_h200px.png
       alt: "Logo des Projekts"
   small: icon-logo
   medium: institution-logo

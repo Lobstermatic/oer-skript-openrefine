@@ -1,6 +1,6 @@
 ---
-title: "Datenbereinigng mit OpenRefine"
-subtitle: "Untertitel des OER-Skripts"
+title: "Datenbereinigung mit OpenRefine"
+subtitle: "Tabellenbereinigung für die Analyse von archäologischen Kleinfunden"
 lang: de
 date: 1900-01-01
 date-format: "DD.MM.YYYY"
@@ -87,6 +87,14 @@ Im Folgenden arbeiten wir mit einem fingierten (!) Datensatz, der sowohl die unt
 
 --> Szenario: Legacy Data / Altgrabungsdaten - Excel Tabelle (ggf. noch csv) mit nicht standardisierten Eintragungen - nicht für Statistik geeignet. Abgebrochenes Projekt, alle Daten in einer Tabelle vorliegend.
 --> DISCLAIMER SICHTBAR EINBAUEN, nicht dass noch jemand ernsthafte Statistiken mit den Daten machen will
+
+::: {.column-screen-inset}
+| Lfd. Nr. | Datum | Areal | Fundstelle | Beschreibung | X | Y | Z |
+|------|-----|---------|------|------|-----|---------|------|
+|   337  |  09.10.2003  |    Hc.III.7.West   |    261  |   Tierterrakottafragment  |  1121,98  |    368,10   |    113,48  |
+|  308  |  30.09.2003 |   Hc.III.7.Ost   |   219  |   Kopf einer weibl. Terrakotte  |  9,99  |    6,60   |    112,51  |
+|    323  |    01.10.2003 |     Hc.III.7.West   |     219  |   Miniaturgefäß, Profil  |  1121,39  |    362,90   |    112,33  |
+:::
 
 ### Zieldaten
 Ziel der Datenbereinigung ist eine statistische Analyse der Funde sowie eine räumliche Darstellung in einem geographischen Informationssystem (GIS).
