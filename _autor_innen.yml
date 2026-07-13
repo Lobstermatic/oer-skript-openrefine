@@ -25,4 +25,6 @@ author:
       - name: Hochschule Mainz
         city: Mainz
         url: https://hs-mainz.de
+    attributes:
+      corresponding: true
     role: "writing – original draft"

@@ -28,7 +28,7 @@ execute:
 
 ## Einleitung
 
-Szenario: Ich erhalte im Forschungsprojekt eine Tabelle mit hunderten oder gar tausenden Einträgen. Leider ist die Dokumentation, wie die Datensätze entstanden sind, nicht mehr auffindbar. Dennoch ist meine Aufgabe, aus den Daten statistische Analysen zu erstellen. Ein erster Blick in die Tabelle zeigt, dass dort einiges drin steht, allerdings anscheinend keine standardisierten Eingaben gemacht wurden. Diese Tabelle muss zunächst einmal bereinigt werden, bevor sie für Analysen herangezogen werden kann.
+Szenario: Ich erhalte im Forschungsprojekt eine Tabelle mit hunderten oder gar tausenden Einträgen. Leider ist die Dokumentation, wie die Datensätze entstanden sind, nicht mehr auffindbar. Dennoch ist meine Aufgabe, aus den Daten statistische Analysen zu erstellen. Ein erster Blick in die Tabelle zeigt, dass dort Einiges drin steht, allerdings anscheinend keine standardisierten Eingaben gemacht wurden. Diese Tabelle muss zunächst einmal bereinigt werden, bevor sie für Analysen herangezogen werden kann.
 
 ### Lernziele {.kolophon .unnumbered .unlisted}
 
@@ -83,7 +83,7 @@ In insgesamt 13 Grabungskampagnen unter drei verschiedenen Direktoren wurden sei
 
 ### Rohdaten aus Bereich H ("Häuserviertel")
 
-Im Folgenden arbeiten wir mit einem fingierten (!) Datensatz, der sowohl die unterschiedlichen Dokumentationsweisen der drei Direktionen beinhaltet, als auch einen Teil bereits durch Henrike Backhaus bereinigter Daten.
+Im Folgenden arbeiten wir mit einem fingierten (!) Datensatz, der sowohl die unterschiedlichen Dokumentationsweisen der drei Grabungsdirektionen beinhaltet, als auch einen Teil bereits durch Henrike Backhaus bereinigter Daten.
 
 --> Szenario: Legacy Data / Altgrabungsdaten - Excel Tabelle (ggf. noch csv) mit nicht standardisierten Eintragungen - nicht für Statistik geeignet. Abgebrochenes Projekt, alle Daten in einer Tabelle vorliegend.
 --> DISCLAIMER SICHTBAR EINBAUEN, nicht dass noch jemand ernsthafte Statistiken mit den Daten machen will
